@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            /* margin-left: auto;
+            margin-right: auto;   */
+        }
+        th{
+                text-align: right ;
+            }
+            td{
+                /*text-align:center;*/
+                padding-left: 20px;
+            }
+    </style>
+
+    
+</head>
+<body>
+    <h2 style="text-align: left;">Table Kendaraan horizontal </h2>
+    <table style=" width:70%">
+        <tr>
+            <th> Nama </th>
+            <th> Tipe</th>
+            <th>harga </th>
+        </tr>
+        <tr>
+            <td>Honda Beat</td>
+            <td>Roda Dua</td>
+            <td>Rp.16.000.000</td>    
+        </tr>
+        <tr>
+            <td>yamaha mio</td>
+            <td>Roda Dua</td>
+            <td>Rp.16.000.000</td>    
+        </tr>
+        <tr>
+            <td>Mobilio</td>
+            <td>Roda Dua</td>
+            <td>Rp.16.000.000</td>    
+        </tr>
+    </table>
+    <h2 style="text-align: left;">Table Kendaraan Vertikal</h2>
+    <table style="width: 75%">
+        <tr>
+            <th>Nama </th>
+            <th>Honda beat</th>
+            <th>Mio</th>
+            <th>Mobilio</th>
+        </tr>
+        <tr>
+            <td>Tipe</td>
+            <td>Roda dua</td>
+            <td>Roda Tiga</td>
+            <td>Roda Empat</td>
+        </tr>
+        <tr>
+            <td>Harga</td>
+            <td>Rp.16.000.000</td>
+            <td>Rp.18.000.000</td>
+            <td>Rp.150.000.000</td>
+        </tr>
+    </table> <br>
+    <table>
+        <tr>
+            <th colspan="2">Nama</th>
+                <th>Tahun</th>   
+        </tr>
+        <tr>
+            <td> Mobil</td>
+            <td>Honda</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td> Mobil</td>
+            <td>Honda</td>
+            <td>2015</td>
+        </tr>
+    </table>
+    <h2>rowspan</h2><table style="width: 75%">
+        <tr>
+            <th>Nama</th>
+            <th>Tipe</th>
+                <th>Tahun</th>   
+        </tr>
+        <tr>
+            <td> Mobil</td>
+            <td rowspan="2">Honda</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td> Mobil</td>
+            <td>Honda</td>
+            <td>2015</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
+
+
